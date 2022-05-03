@@ -1,0 +1,158 @@
+.header{
+    display:block;
+}
+.w3-sidebar{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+}
+#leftmenuinner{
+    top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y:scroll;
+    overflow-x: scroll;
+    padding-top: 20px;
+}
+.w3-bar-item{
+    margin: 10px;
+    top: -0.45em;
+    display: inline-block;
+}
+.clear{
+    float: right;
+    display: inline-block;
+    font-size: 19px;
+    height: 1em;
+    margin: 10px;
+    top: -0.45em;
+}
+.w3-select{
+    padding: 9px;
+    border: 1px solid #ccc;
+    margin-left: 15%;
+    width: 70%;
+}
+.p1{
+    margin-left: 13%;
+}
+.mainblock{
+    width:75vw;
+    height: 100%;
+    float: right;
+    border: 0em red;
+    background-color: #ccc;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+.block1{
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    width: 50%;
+    padding-top: 20px;
+    margin: 2.5em;
+    padding-left: 1em;
+    text-align: left;
+}
+.text{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+}
+.svg1{
+    width: 1em;
+    height: 1em;
+    position: relative;
+
+    right: 0.5em;
+    float: right;
+    display: inline;
+}
+.num{
+    color:black;
+    font-weight: 900;
+}
+.w3-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.div1{
+    margin-left:1%;
+    background-color: white;
+    width: 50%;
+    height: 70%;
+}
+.plast{
+    padding: 0 30px ;
+    font-size: large;
+    font-weight: bold;
+}
+.div2{
+    margin: 1.5em;
+    margin-top: 1%;
+}
+.div21{
+    margin-bottom:2em;
+    padding: 1em;
+    background-color: white;
+    height: 33vh;
+    width: 20vw;
+}
+
+.div22{
+    margin-bottom: 2.5em;
+    padding: 1em;
+    background-color: white;
+    height: 33vh;
+    width: 20vw;
+}
+.svg2{
+    top: 0.5em;
+    right: 0.5em;
+}
+.w3-button{
+    max-width: fit-content;
+}
+.w3-dropdown-content{
+    width: 200px;
+}
+#piechart{
+    top: -1em;
+}
+
+@media screen and (min-width: 240px){
+    .main, .right {
+        width: 100%;
+    }
+    
+}
+  
+  @media screen and (max-width: 400px) {
+    .left, .main, .right {
+      width: 100%; 
+        }
+  }
+
+@media (min-width: 993px) {
+      .w3-sidebar .w3-collapse {
+          display: block !important;
+      }      
+}
+
+@media only screen and (max-width: 620px) {
+    .menu, .main, .right {
+        display: block;
+        width: 100%;
+    }
+  }
